@@ -4,7 +4,7 @@
 [web]
   title = "${DISPLAY_URL} | ${TAGLINE_DESC}"
   port = 8910
-  apiUrl = "/.redwood/functions"
+  apiUrl = "/.netlify/functions"
   includeEnvironmentVariables = [
     "DISPLAY_URL",
     "TAGLINE_DESC",
