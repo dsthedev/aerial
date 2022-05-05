@@ -1,5 +1,7 @@
 # Aerial
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/70c412ac-93ab-48e2-ac6f-cbe5974f04e5/deploy-status)](https://app.netlify.com/sites/chipper-marshmallow-04769e/deploys)
+
 A placeholder landing page made with RedwoodJS.
 
 Currently, the goal of the project is to simply be a deployable landing page for unused domain names / archived projects.  Needs only a few ENV variables set to get started!
