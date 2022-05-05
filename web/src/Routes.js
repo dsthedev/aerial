@@ -7,11 +7,16 @@
 // 'src/pages/HomePage/HomePage.js'         -> HomePage
 // 'src/pages/Admin/BooksPage/BooksPage.js' -> AdminBooksPage
 
-import { Router, Route } from '@redwoodjs/router'
+import { Router, Route, Set } from '@redwoodjs/router'
+import AerialLayout from './layouts/AerialLayout/AerialLayout'
 
 const Routes = () => {
   return (
     <Router>
+      <Set wrap={AerialLayout}>
+        <Route path="/" page={AerialPage} name="aerial" />
+        <Route path="/aerial" page={AerialPage} name="aerial" />
+      </Set>
       <Route notfound page={NotFoundPage} />
     </Router>
   )
