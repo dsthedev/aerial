@@ -15,7 +15,6 @@ const Routes = () => {
     <Router>
       <Set wrap={AerialLayout}>
         <Route path="/" page={AerialPage} name="aerial" />
-        <Route path="/aerial" page={AerialPage} name="aerial" />
       </Set>
       <Route notfound page={NotFoundPage} />
     </Router>
